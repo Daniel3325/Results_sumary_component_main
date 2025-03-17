@@ -164,7 +164,7 @@ body{
 /*--------------------Summary--------------------*/
 
 .box .summary{
-    background-color: coral;
+    /*background-color: coral;*/
     width: 350px;
     height: 500px;
     display: flex;
@@ -176,7 +176,7 @@ body{
 /*----------Title----------*/
 
 .box .summary .title{
-    background-color: rgba(0, 255, 255, 0.3);
+    /*background-color: rgba(0, 255, 255, 0.3);*/
     width: 350px;
     height: 90px;
     display: flex;
@@ -194,7 +194,7 @@ body{
 /*----------Info----------*/
 
 .box .summary .info{
-    background-color: rgba(255, 0, 255, 0.3);
+    /*background-color: rgba(255, 0, 255, 0.3);*/
     width: 350px;
     height: 320px;
     display: flex;
@@ -203,7 +203,7 @@ body{
 }
 
 .box .summary .info .cbox{
-    background-color: rgba(0, 255, 255, 0.4);
+    /*background-color: rgba(0, 255, 255, 0.4);*/
     width: 290px;
     height: 320px;
     display: flex;
@@ -217,28 +217,288 @@ body{
 .aba2,
 .aba3,
 .aba4{
-    display: inline;
-    align-items: center;
     width: 290px;
-    height: 69px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
     border-radius: 15px;
+    margin: 15px 0 0 0;
 }
 
-.box .summary .info .cbox .aba2,
-.aba3,
-.aba4{
-    margin: 15px 0 0 0;
+.box .summary .info .cbox .aba2{
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+
+.box .summary .info .cbox .aba3{
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+
+.box .summary .info .cbox .aba4{
+    background-color: hsl(234, 85%, 45%, 0.1);
 }
 
 /*-----aba1-----*/
 
 .box .summary .info .cbox .aba1{
-    background-color: blue;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    width: 290px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 15px;
 }
 
-.box .summary .info .cbox .aba1 img{
-    width: 30px;
-    height: 30px;
+.box .summary .info .cbox .aba1 .ico{
+    /*background-color: rgba(0, 206, 209, 0.596);*/
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/*margin: 15px 0 0 0;*/
+.box .summary .info .cbox .aba1 .ico img{
+    width: 25px;
+    height: 25px;
+}
+
+/*---------------------------*/
+
+.box .summary .info .cbox .aba1 .reaction{
+    /*background-color: rgba(0, 255, 128, 0.459);*/
+    width: 130px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.box .summary .info .cbox .aba1 .reaction p{
+    font-family: Hanken Grotesk;
+    font-weight: 700;
+    color: hsl(0, 100%, 67%);
+}
+
+/*---------------------------*/
+
+.box .summary .info .cbox .aba1 .pct{
+    /*background-color: sandybrown;*/
+    width: 90px;
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .summary .info .cbox .aba1 .pct .p1{
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+    margin: 0 7px 0 0;
+}
+
+.box .summary .info .cbox .aba1 .pct .p2{
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    color: rgba(128, 128, 128, 0.5);
+}
+
+/*-----aba2-----*/
+
+.box .summary .info .cbox .aba2 .ico{
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .summary .info .cbox .aba2 .ico img{
+    width: 25px;
+    height: 25px;
+}
+
+/*---------------------------*/
+
+.box .summary .info .cbox .aba2 .memory{
+    width: 130px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.box .summary .info .cbox .aba2 .memory p{
+    font-family: Hanken Grotesk;
+    font-weight: 700;
+    color: hsl(39, 100%, 56%);
+}
+
+/*---------------------------*/
+
+.box .summary .info .cbox .aba2 .pct{
+    width: 90px;
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .summary .info .cbox .aba2 .pct .p1{
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+    margin: 0 7px 0 0;
+}
+
+.box .summary .info .cbox .aba2 .pct .p2{
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    color: rgba(128, 128, 128, 0.5);
+}
+
+/*-----aba3-----*/
+
+.box .summary .info .cbox .aba3 .ico{
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .summary .info .cbox .aba3 .ico img{
+    width: 25px;
+    height: 25px;
+}
+
+/*---------------------------*/
+
+.box .summary .info .cbox .aba3 .verbal{
+    width: 130px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.box .summary .info .cbox .aba3 .verbal p{
+    font-family: Hanken Grotesk;
+    font-weight: 700;
+    color: hsl(166, 100%, 37%);
+}
+
+/*---------------------------*/
+
+.box .summary .info .cbox .aba3 .pct{
+    width: 90px;
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .summary .info .cbox .aba3 .pct .p1{
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+    margin: 0 7px 0 0;
+}
+
+.box .summary .info .cbox .aba3 .pct .p2{
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    color: rgba(128, 128, 128, 0.5);
+}
+
+/*-----aba4-----*/
+
+.box .summary .info .cbox .aba4 .ico{
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .summary .info .cbox .aba4 .ico img{
+    width: 25px;
+    height: 25px;
+}
+
+/*---------------------------*/
+
+.box .summary .info .cbox .aba4 .visual{
+    width: 130px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.box .summary .info .cbox .aba4 .visual p{
+    font-family: Hanken Grotesk;
+    font-weight: 700;
+    color: hsl(234, 85%, 45%);
+}
+
+/*---------------------------*/
+
+.box .summary .info .cbox .aba4 .pct{
+    width: 90px;
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .summary .info .cbox .aba4 .pct .p1{
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+    margin: 0 7px 0 0;
+}
+
+.box .summary .info .cbox .aba4 .pct .p2{
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    color: rgba(128, 128, 128, 0.5);
+}
+
+/*--------------------Button--------------------*/
+
+.box .summary .btn{
+    /*background-color: rgba(165, 42, 42, 0.3);*/
+    width: 350px;
+    height: 90px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 30px 0;
+    margin: 0;
+}
+
+/*----------h3----------*/
+
+.box .summary .btn h3{
+    margin: 0;
+    font-family: Hanken Grotesk;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+/*----------btn----------*/
+
+.box .summary .btn button{
+    width: 290px;
+    height: 60px;
+    margin: 0;
+    border: 0;
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(224, 30%, 27%);
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.box .summary .btn button:hover{
+    background-color: ;
+}
