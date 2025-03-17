@@ -474,31 +474,20 @@ body{
     margin: 0;
 }
 
-/*----------h3----------*/
-
-.box .summary .btn h3{
-    margin: 0;
-    font-family: Hanken Grotesk;
-    font-weight: 700;
-    color: hsl(0, 0%, 100%);
-}
-
-/*----------btn----------*/
-
-.box .summary .btn button{
+.box .summary .btn .botao{
+    background-color: hsl(224, 30%, 27%);
     width: 290px;
     height: 60px;
-    margin: 0;
-    border: 0;
+    color: hsl(0, 0%, 100%);
+    border: none;
     border-radius: 50px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(224, 30%, 27%);
+    font-family: Hanken Grotesk;
+    font-weight: 700;
+    font-size: 18px;
     cursor: pointer;
-    transition: background-color 0.5s ease-in-out;
+    transition: background 0.3s ease-in-out;
 }
 
-.box .summary .btn button:hover{
-    background-color: ;
+.box .summary .btn .botao:hover{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
